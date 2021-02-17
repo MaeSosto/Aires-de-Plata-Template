@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:grey !important;
+}
+
+img{
+  border-radius: 4px;
+}
+
+/* Navbar */
+.container_nav{
+  position: inherit;
+  height: 125px;
+  background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed !important;
+  width: 100%;
+  color: white !important;
+
+}
+
+
+.navbar-light{
+  color: white !important;
+}
+
+.topnav img{
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+} 
+
+.topnav a{
+  color: white !important;
+  font-size: 20px;
+}
+
+.topnav span{
+  color: white !important;
+}
+
+.collapse{
+  margin-left: 30px;
+}
+
+.center_h1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height: 80px;
+  width: 500px;
+  margin: auto;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+
+.container_blocco{
+  text-align: center;
+  height: 87%;
+  color: white;
+  background-image: url("img/bistecca.jpg");
+}
+
+.container_blocco h1{
+  padding-top: 10%;
+  font-size: 70px;
+}
+
+/* BOTTONE CENTRO */
+ .center {
+  top: 80%;
+  left: 50%;
+  margin: auto;
+  margin-top: 10%;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 26px;
+  background-color: #333;
+  border-radius: 15px;
+  width: 50%;
+} 
+
+.center a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.center a:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 15px
+}
+
+.blocco1{
+  background-color: lightgray;
+  padding: 5%;
+  width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+}
+
+.blocco1 h2{
+  margin-bottom: 25px;
+}
+
+.blocco1 p{
+  font-size: 22px;
+}
+
+#blocco_img{
+  opacity: unset;
+  position: inherit;
+}
+
+#testo_img{
+  text-align: left;
+}
+
+.blocco2{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5%;
+  width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocco2 h2{
+  margin-bottom: 25px;
+}
+
+.blocco2 p{
+  font-size: 22px;
+}
+
+.button_custom {
+  top: 80%;
+  left: 50%;
+  margin: auto;
+  margin-top: 10%;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 26px;
+  background-color: #333;
+  border-radius: 15px;
+  width: 80%;
+} 
+
+.button_custom a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.button_custom a:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 15px
+}
+
+
+footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+/* ---------------------- MENU ------------------- */
+.container_menu {
+  width: 85%;
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.container_menu h1 {
+  text-align: center;
+  padding: 40px;
+  background-color: whitesmoke;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.foto_menu{
+  height: 20%;
+  border-radius: 4px;
+}
+
+/* -------------------- CONTATTI -------------------------- */
+table{
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px) {
+  .container_blocco h1{
+    padding-top: 45%;
+    font-size: 250%;
+  }
+  .container_blocco h2{
+    font-size: 120%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center{
+    margin-top: 40%;
+  }
+
+  .center a{
+    font-size: 25px;
+  }
+
+  .blocco1{
+    padding: 5%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .blocco2{
+    padding: 5%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .not_hide{
+    display: block !important;
+  }
+
+  #blocco_img{
+    opacity: unset;
+  }
+  
+
+  #img_locale{
+    float: none;
+  }
+
+  .con_img{
+    text-align: center;
+  }
+
+  .container_menu {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,103 @@
+<head>
+    <!-- Collegamento al CSS esterno -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg topnav navbar-light ">
+        <img id="img_logo" src="img/logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prenota.html">Prenota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contatti.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container_nav"></div>
+
+    <div class="container_menu">
+        <h1>Prenota</h1>
+        
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <p>La preghiamo di inserire un indirizzo email o un numero di telefono valido. Sarà nostra cura ricontattarla per confermare la prenotazione. Saranno prese in considerazione solo le richieste pervenute entro le 18:00 del giorno della prenotazione.
+
+                Per richieste particolari o comunicazioni urgenti, telefonare allo 051 239846.
+                
+                <br>Prenotazioni con coupon GROUPON esclusivamente e obbligatoriamente su <a href="www.mytable.it">www.mytable.it</a> (le prenotazioni fatte sul nostro sito non verranno accettate).
+                
+            </p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome e cognome" required name="nome"></p>
+                <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="email"></p>
+                <p><input class="w3-input w3-padding-16" type="tel" placeholder="Numero di telefono" required name="telefono"></p>
+                <p><input class="w3-input w3-padding-16" type="number" placeholder="Numero di persone" required
+                        name="persone"></p>
+                <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Data e ora" required
+                        name="data" value="2017-11-16T20:00"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Altre informazioni"
+                        required name="note"></p>
+                <p><button class="w3-button w3-light-grey w3-section" type="submit">Invia prenotazione</button></p>
+            </form>
+        </div>
+
+        
+    </div>
+
+    </div>
+
+    <footer>
+        © 2020 Aires Del Plata • Privacy Policy • Cookie Policy • P. IVA 02513201208
+        <br>
+        Via dell'Abbadia, 4 • 40122 Bologna • Tel. 051 239846 • info@airesdelplata.net
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>

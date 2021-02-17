@@ -1,0 +1,203 @@
+<head>
+    <!-- Collegamento al CSS esterno -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg topnav navbar-light ">
+        <img id="img_logo" src="img/logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prenota.html">Prenota</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contatti.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container_nav"></div>
+    
+    <div class="container_menu">
+        <h1>Menù</h1>
+    
+            <!-- ANTIPASTI -->
+            <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+                <h2>Antipasti</h2>
+                <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/provola.jpg" alt="Provola" style="width:100%">
+                        <h3>Provola a la parrilla con mermelada de tomatitos</h3>
+                        <p>Tegamino con provola alla griglia con marmellata di datterini speziata</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/tartar.jpg" alt="Tartar" style="width:100%">
+                        <h3>Tartar Angus con alcaparras, salsa guacamole y fugazza crocante</h3>
+                        <p>Tartar di Filetto di Angus ai capperi con salsa guacamole e fugazza croccante</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/mozzarella.jpg" alt="Mozzarella" style="width:100%">
+                        <h3>Mozzarella Ripiena, mango y Serrano “para empezar”</h3>
+                        <p>Mozzarella ripiena di crema di burrata, Jamòn serrano Riserva e pepite di mango con salsa al formaggio piccantina</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/pulpo.jpg" alt="Pulpo" style="width:100%">
+                        <h3>Pulpo asado con crema de yogurt y lemon</h3>
+                        <p>Polpo marinato e grigliato con crema di yogurt e limone, misticanza e carote</p>
+                    </div>
+                </div>
+
+                <div class="w3-row-padding w3-padding-16 w3-center">
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/sushi.jpg" alt="Sushi" style="width:100%">
+                        <h3>Sushi Angus</h3>
+                        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/empanadas.jpg" alt="Salmon" style="width:100%">
+                        <h3>Empanadas (2 a scelta)</h3>
+                        <p>Carne cortada a cuchillo (Panzerotto con ripieno di carne, uova, olive e spezie argentine)</p>
+                    </div>
+                </div>
+
+                <!-- PRIMI E ZUPPE -->
+                <h2>Primi e zuppe</h2>
+                <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/gazpacho.jpg" alt="Provola" style="width:100%">
+                        <h3>Gazpacho</h3>
+                        <p>Cremosa vellutata fredda di pomodori confit, con mozzarella ripiena di
+                            nettare di pomodoro, uovo sodo e chips di prosciutto Serrano riserva</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/spaghetti.jpg" alt="Tartar" style="width:100%">
+                        <h3>Spaghetti con tomatitos saltados y salsa de ricotta a la
+                            albaca</h3>
+                        <p>Spaghetti con datterini saltati e crema di ricotta al basilico</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/veloute.jpg" alt="Mozzarella" style="width:100%">
+                        <h3>Veloutè de judias blancas con panceta y gambas</h3>
+                        <p>Vellutata di fagioli bianchi, bacon e gamberi Argentini</p>
+                    </div>
+                </div>
+
+                <!-- SECONDI -->
+                <h2>Dalla nostra griglia alla brace</h2>
+                <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/controfiletto.jpg" alt="Provola" style="width:100%">
+                        <h3>Bife de Chorizo</h3>
+                        <p>Controfiletto di bovino Black Angus Argentina</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/entrecote.jpg" alt="Tartar" style="width:100%">
+                        <h3>Bife Ancho</h3>
+                        <p>Entrecote di bovino Black Angus Argentina</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/churrasco.jpg" alt="Mozzarella" style="width:100%">
+                        <h3>Churrasco de lomo</h3>
+                        <p>Filetto di bovino Black Angus Argentina</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/entrania.jpg" alt="Mozzarella" style="width:100%">
+                        <h3>Entrania (300gr)</h3>
+                        <p>Diaramma di bovino Black Angus</p>
+                    </div>
+                </div>
+
+                <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/angus.jpg" alt="Provola" style="width:100%">
+                        <h3>Gran Tagliata Angus (consigliata x 2 pers)</h3>
+                        <p>Tagliata di picanha - 600 gr ca</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/degustazione.jpg" alt="Tartar" style="width:100%">
+                        <h3>Degustaciòn cortes Black Angus (consigliata x 2/3 pers)</h3>
+                            <p>Degustazione tagli Angus 1000 gr ca – Controfiletto, Filetto di diaframma,
+                                Entrecote, Picanha
+                        </p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/parrillada.jpg" alt="Mozzarella" style="width:100%">
+                        <h3>Parrillada Aires del Plata</h3>
+                        <p>Grigliata mista di: costine di maiale, salsiccia, costine di manzo, filettino di
+                            diaframma Angus, Picanha Angus, –1500 gr.ca</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img class="foto_menu" src="img/menu/bife.jpg" alt="Tartar" style="width:100%">
+                        <h3>Gran bife ancho Black Angus </h3>
+                        <p> Entrecote Black Angus Argentina – 500 gr</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+            
+    </div>
+
+    </div>
+
+    <footer>
+        © 2020 Aires Del Plata • Privacy Policy • Cookie Policy • P. IVA 02513201208
+        <br>
+        Via dell'Abbadia, 4 • 40122 Bologna • Tel. 051 239846 • info@airesdelplata.net
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
